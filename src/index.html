@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,
+        maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前端导航项目</title>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="globalHeader">
+        <form class="searchForm" method="get" action="http://www.baidu.com/s">
+            <input name="wd" type="text">
+            <button type="submit"><img class="searchImg" src="./images/search.png"></button>
+        </form>
+    </header>
+    <main class="globalMain">
+        <ul class="siteList">
+            <li class="last">
+                <div class="addButton">
+                    <div class="icon-wrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-add"></use>
+                        </svg>
+                    </div>
+                    <div class="text">
+                        新增网站
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="//at.alicdn.com/t/font_3423372_uuf0bvmvcnh.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+        src="https://lib.baomitu.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
