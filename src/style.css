@@ -30,12 +30,24 @@ image {
 
 body {
     background: #eee;
-    /* background-size: 100% 100%;
-    background-image: url(./images/1.jpg); */
+    background-image: url(images/1.jpeg);
+    background-size: cover;
+
 }
 
+
 .globalHeader {
-    margin: 40px 20px 40px 20px;
+    margin: 100px 20px 40px 20px;
+}
+
+@media (max-width:500px) {
+    body {
+        background: #eee;
+        background-image: url(images/3.jpeg);
+        background-size: cover;
+
+    }
+
 }
 
 @media (min-width:500px) {
@@ -95,20 +107,17 @@ body {
 
 }
 
-/* @media (max-width:500px) {
+@media (max-width:500px) {
     .siteList {
         justify-content: space-between;
 
     }
-} */
-
+}
 
 @media (min-width:500px) {
     .siteList {
         margin-left: 0;
         margin-right: -12.5px;
-        justify-content: flex-start;
-
     }
 }
 
