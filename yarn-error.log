@@ -1,0 +1,41 @@
+Arguments: 
+  D:\Software\node\node.exe D:\Software\yarn\bin\yarn.js build
+
+PATH: 
+  D:\Software\cmder\vendor\git-for-windows\mingw64\bin;D:\Software\cmder\vendor\git-for-windows\usr\bin;C:\Users\Administrator\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\Software\node;D:\Software\yarn\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Administrator\Desktop\nav-1\package.json: Unexpected token : in JSON at position 9
+      at JSON.parse (<anonymous>)
+      at D:\Software\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\Software\yarn\lib\cli.js:310:30)
+      at D:\Software\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  "scripts": {
+    "build": "rm -rf && parcel build src/index.html --no-minify --public -url ./"
+  },
+  {
+    "name": "nav-1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:MoniTang/nav-1.git",
+    "author": "Tang <istangxy@163.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
